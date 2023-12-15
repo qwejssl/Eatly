@@ -832,3 +832,133 @@ li {
     bottom: 0;
     right: 0;
 }
+
+
+
+
+.sing_up-section {
+    display: flex;
+    height: 100vh;
+}
+
+.first_sign_up {
+    width: 775px;
+    position: relative;
+}
+
+.sign_up-logo {
+    position: absolute;
+    left: 48px;
+    top: 32px;
+}
+
+.sign_up-block1 {
+    max-width: 390px;
+    margin: 0 auto;
+    margin-top: 170px;
+}
+
+.sign_up-title {
+    font-size: 35px;
+    text-align: center;
+    color: #323142;
+}
+
+.sign_up_with-block {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.google-section {
+    background-color: #F5F5F5;
+    padding: 10px 75px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.input_sing_up-block {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 14px;
+    padding: 26px 24px;
+    margin-top: 24px;
+}
+
+.sing_up-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.see_img {
+    position: absolute;
+    top: 27px;
+    right: 28px;
+}
+
+.sing_up-button {
+    padding: 24px 155px;
+    width: 390px;
+    background-color: #6C5FBC;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 14px;
+    margin-top: 40px;
+}
+
+.sign_up-text {
+    max-width: 315px;
+    margin: 25px auto;
+}
+
+.purpul {
+    color: #6C5FBC;
+}
+
+.sing_up-undertext {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-left: 48px;
+}
+
+.second_sign_up {
+    padding: 50px 0 120px;
+    position: absolute;
+    right: 0;
+    background-color: #6C5FBC;
+    max-width: 665px;
+    color: #fff;
+}
+
+.sign_up-img {
+    text-align: center;
+    pointer-events: none;
+}
+
+.second_sign_up-title {
+    margin-top: 75px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.second_sign_up-text {
+    margin-top: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.log_in-undertext {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 145px;
+    margin-left: 48px;
+}
