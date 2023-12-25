@@ -201,6 +201,7 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 85px;
+    max-height: 220px;
 }
 
 .info_section-inner {
@@ -219,12 +220,14 @@ li {
 .info_section-title{
     font-size: 42px;
 }
+
 .info_section-text {
     font-size: 18px;
     color: #C5BFED;
     margin-top: 10px;
 }
-.right_border {
+
+.right_border1 {
     border-right: 1px solid #C5C5C5;
     height: 125px;
 }
@@ -288,7 +291,6 @@ li {
 
 .restaurant_section {
     margin-top: 100px;
-   
 }
 
 .restaurant_section-inner {
@@ -961,4 +963,564 @@ li {
     justify-content: space-between;
     margin-top: 145px;
     margin-left: 48px;
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 890px;
+        margin: 0 auto;
+    }
+
+    .menu {
+        padding: 35px 0 15px;
+    }
+
+    .menu-list {
+        font-size: 12px;
+        gap: 35px;
+    }
+
+    .title-section {
+        margin-top: 35px;
+        gap: 25px;
+    }
+
+    .title_text-block {
+        max-width: 400px;
+    }
+
+    .users_block {
+        gap: 15px;
+    }
+
+    .border_user {
+        width: 38px;
+    }
+
+    .amount_of_users {
+        font-size: 10px;
+    }
+
+    .title_section-title {
+        font-size: 50px;
+        margin-top: 12px;
+        line-height: 64px;
+    }
+
+    .title_section-undertext {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .title_btn-block {
+        gap: 12px;
+    }
+
+    .reveiw {
+        width: 215px;
+        height: 22px;
+    }
+    
+    .title_img {
+        width: 480px;
+        height: 430px;
+    }
+
+    .info_section {
+        margin-top: 60px;
+        padding: 35px 0;
+    }
+
+    .info_section-inner {
+        max-width: 670px;
+    }
+
+    .info_section-item {
+        max-width: 185px;
+    }
+
+    .info_section-title {
+        font-size: 30px;
+    }
+
+    .info_section-text {
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    .right_border {
+        height: 85px;
+    }
+
+    .quality_section {
+        margin-top: 70px;
+    }
+
+    .quality_section-inner {
+        gap: 150px;
+        margin-bottom: 85px;
+    }
+
+    .quality_section-img {
+        width: 265px;
+        height: 445px;
+    }
+
+    .quality_section-text {
+        margin-top: 65px;
+        max-width: 400px;
+    }
+
+    .quality_section-title {
+        font-size: 38px;
+    }
+    
+    .quality_section-list {
+        font-size: 14px;
+        margin-top: 45px;
+    }
+
+    .quality_section-list-item {
+        margin-top: 20px;
+    }
+
+    .quality_section-button-block {
+        margin-top: 40px;
+    }
+
+    .quality_section-btn {
+        padding: 14px 18px;
+    }
+
+    .quality_section-btn-text {
+        font-size: 16px;
+    }
+
+    .restaurant_section {
+        margin-top: 70px;
+    }
+
+    .restaurant_section-inner {
+        margin-bottom: 160px;
+    }
+
+    .restaurant_section-title {
+        font-size: 32px;
+    }
+    
+    .restaurant_list {
+        margin-top: 60px;
+    }
+
+    .restaurant_list-item {
+        max-width: 280px;
+    }
+
+    .restaurant_item-img {
+        height: 125px;
+        max-width: 280px;
+    }
+
+    .restaurant_item-text {
+        padding: 7px 24px 10px;
+    }
+
+    .qualty {
+        max-width: 50px;
+        font-size: 8px;
+    }
+    
+    .name_restaurant {
+        font-size: 18px;
+    }
+
+    .food_list {
+        margin-top: 50px;
+    }
+
+    .food_list-item {
+        padding: 22px 10px;
+    }
+
+    .food_item-text {
+    }
+
+    .food_item-img {
+        width: 140px;
+        height: 145px;
+    }
+
+    .perchases_section {
+        margin-top: 70px;
+    }
+
+    .perchases_text-block {
+        max-width: 400px;
+    }
+
+    .perchases_section-title {
+        font-size: 36px;
+    }
+    
+    .perchases_menu-item {
+        max-width: 245px;
+        padding: 2px 12px;
+    }
+   
+    .perchases_item-text-title {
+        font-size: 14px;
+    }
+
+    .perchases_item-text-undertext {
+        font-size: 8px;
+        margin-top: 0;
+    }
+
+    .perchases_time {
+        font-size: 9px;
+    }
+
+    .perchases_section-table {
+        width: 380px;
+    }
+
+    .perchases_table-title {
+        font-size: 20px;
+    }
+
+    .perchases_table-time-selector {
+        padding: 8px 12px;
+        width: 125px;
+    }
+
+    .time-selector {
+        font-size: 12px;
+    }
+
+    .table_menu-item {
+        gap: 12px;
+        padding: 20px 15px;
+    }
+
+    .table_item-text {
+        margin-right: 75px;
+    }
+
+    .table_item-text-title {
+        font-size: 14px;
+    }
+
+    .table_item-text-undertext {
+        font-size: 12px;
+    }
+
+    .table_price {
+        font-size: 15px;
+    }
+
+    .form_section {
+        margin-top: 120px;
+    }
+
+    .form {
+        max-width: 860px;
+        padding: 25px 45px 40px;
+    }
+
+    .form_title {
+        font-size: 50px;
+    }
+
+    .form_input-block {
+        width: 310px;
+    }
+    
+    .form_input {
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .subscribe_button {
+        padding: 10px 18px;
+        font-size: 10px;
+    }
+    .form_img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .footer {
+        margin-top: 120px;
+    }
+
+
+    .meal_preview-section {
+        margin-top: 75px;
+    }
+
+    .meal_preview-block {
+        max-width: 880px;
+    }
+
+    .meal_section-img {
+        width: 880px;
+        height: 270px;
+    }
+    
+    .meal_preview-text {
+        padding: 18px 32px 22px;
+    }
+
+    .meal_preview-title {
+        font-size: 28px;
+    }
+
+    .meals_menu-section {
+        margin-top: 100px;
+    }
+
+    .meals_menu-title {
+        font-size: 24px;
+    }
+
+    .bottom {
+        margin-bottom: 100px;
+    }
+
+    .quetion_section {
+        margin-top: 90px;
+    }
+
+    .quetion_list {
+        margin-top: 80px;
+    }
+
+
+    .article_section {
+        margin-top: 90px;
+    }
+    
+    .article_title {
+        font-size: 26px;
+    }
+
+    .article_profile {
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .ava_img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .written_by {
+        font-size: 10px;
+    }
+
+    .profile_name {
+        font-size: 15px;
+    }
+
+    .profile_img {
+        margin-top: 40px;
+        width: 880px;
+        height: 290px;
+    }
+
+    .article_text-section {
+        margin-top: 55px;
+    }
+    
+    .first_article-block {
+        max-width: 560px;
+    }
+
+    .article_block-title {
+        font-size: 22px;
+    }
+
+    .article_block-text {
+        font-size: 15px;
+    }
+
+    .article_block-list {
+        margin-top: 40px;
+    }
+
+    .article_block-list-item {
+        font-size: 15px;
+    }
+    .article_block-margin {
+        margin-top: 60px;
+    }
+
+    .quality_section-btn {
+        padding: 16px 19px;
+        font-size: 14px;
+    }
+
+    .next_article-margin {
+        margin-top: 70px;
+    }
+
+    .quality_section-btn-text {
+        font-size: 14px;
+    }
+
+    .quality_section-btn-img {
+        width: 21px;
+        height: 24px;
+    }
+
+    .right_border {
+        height: 960px;
+    }
+
+    .second_article-block {
+        max-width: 230px;
+    }
+
+    .mini_article_block {
+        padding: 15px 12px 18px;
+        margin-top: 30px;
+    }
+
+    .mini_article-img {
+        width: 188px;
+        height: 165px;
+    }
+
+    .mini_article-title {
+        margin-top: 12px;
+        font-size: 12px;
+    }
+
+    .mini_ava-img {
+        width: 26px;
+        height: 26px;
+    }
+
+    .mini_article_profile {
+        margin-top: 12px;
+    }
+    .mini_profile_text {
+    }
+    .mini_written_by {
+        font-size: 7px;
+    }
+    .mini_profile_name {
+        font-size: 10px;
+    }
+    .mini_article-date {
+        font-size: 9px;
+    }
+
+    .first_sign_up {
+        max-width: 555px;
+    }
+
+    .sign_up-logo {
+        width: 37px;
+        height: 34px;
+    }
+
+    .sign_up-block1 {
+        max-width: 275px;
+        margin-top: 120px;
+    }
+
+    .sign_up-title {
+        font-size: 25px;
+    }
+    .sign_up_with-block {
+        margin-top: 30px;
+    }
+
+    .google-section {
+        padding: 7px 50px;
+    }
+
+    .input_sing_up-block {
+        margin-top: 15px;
+        gap: 24px;
+        padding: 18px;
+    }
+
+    .mini_input-img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .see_img {
+        top: 18px;
+        right: 18px;
+        width: 15px;
+        height: 13px;
+    }
+
+    .sing_up-button {
+        width: 270px;
+        padding: 17px 100px;
+        font-size: 12px;
+    }
+
+    .sign_up-text {
+        max-width: 270px;
+        margin: 15px 15px;
+        font-size: 14px;
+    }
+    
+    .sing_up-undertext {
+        font-size: 14px;
+        margin-left: 30px;
+
+    }
+    .second_sign_up {
+        max-width: 500px;
+    }
+    .sign_up-img {
+        width: 385px;
+        height: 295px;
+    }
+
+    .second_sign_up-title {
+        margin-top: 150px;
+        font-size: 28px;
+    }
+
+    .second_sign_up-text {
+        font-size: 10px;
+        max-width: 355px;
+    }
+
+    .log_in-undertext {
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
 }
